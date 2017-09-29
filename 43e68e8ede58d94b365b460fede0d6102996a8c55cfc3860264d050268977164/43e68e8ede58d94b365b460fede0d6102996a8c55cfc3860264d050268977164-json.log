@@ -1,0 +1,113 @@
+{"log":"The files belonging to this database system will be owned by user \"postgres\".\n","stream":"stdout","time":"2017-09-22T19:54:37.852402536Z"}
+{"log":"This user must also own the server process.\n","stream":"stdout","time":"2017-09-22T19:54:37.852425838Z"}
+{"log":"\n","stream":"stdout","time":"2017-09-22T19:54:37.852429943Z"}
+{"log":"The database cluster will be initialized with locale \"en_US.utf8\".\n","stream":"stdout","time":"2017-09-22T19:54:37.85243269Z"}
+{"log":"The default database encoding has accordingly been set to \"UTF8\".\n","stream":"stdout","time":"2017-09-22T19:54:37.852435852Z"}
+{"log":"The default text search configuration will be set to \"english\".\n","stream":"stdout","time":"2017-09-22T19:54:37.852438704Z"}
+{"log":"\n","stream":"stdout","time":"2017-09-22T19:54:37.852441515Z"}
+{"log":"Data page checksums are disabled.\n","stream":"stdout","time":"2017-09-22T19:54:37.85244396Z"}
+{"log":"\n","stream":"stdout","time":"2017-09-22T19:54:37.852454584Z"}
+{"log":"fixing permissions on existing directory /var/lib/postgresql/data ... ok\n","stream":"stdout","time":"2017-09-22T19:54:37.852458111Z"}
+{"log":"creating subdirectories ... ok\n","stream":"stdout","time":"2017-09-22T19:54:37.852709413Z"}
+{"log":"selecting default max_connections ... 100\n","stream":"stdout","time":"2017-09-22T19:54:37.863480804Z"}
+{"log":"selecting default shared_buffers ... 128MB\n","stream":"stdout","time":"2017-09-22T19:54:37.891686199Z"}
+{"log":"selecting dynamic shared memory implementation ... posix\n","stream":"stdout","time":"2017-09-22T19:54:37.891699946Z"}
+{"log":"creating configuration files ... ok\n","stream":"stdout","time":"2017-09-22T19:54:38.220127482Z"}
+{"log":"running bootstrap script ... ok\n","stream":"stdout","time":"2017-09-22T19:54:38.746491339Z"}
+{"log":"performing post-bootstrap initialization ... ok\n","stream":"stdout","time":"2017-09-22T19:54:39.105360035Z"}
+{"log":"\n","stream":"stderr","time":"2017-09-22T19:54:40.815424989Z"}
+{"log":"WARNING: enabling \"trust\" authentication for local connections\n","stream":"stderr","time":"2017-09-22T19:54:40.815457133Z"}
+{"log":"You can change this by editing pg_hba.conf or using the option -A, or\n","stream":"stderr","time":"2017-09-22T19:54:40.815462245Z"}
+{"log":"--auth-local and --auth-host, the next time you run initdb.\n","stream":"stderr","time":"2017-09-22T19:54:40.815465246Z"}
+{"log":"syncing data to disk ... ok\n","stream":"stdout","time":"2017-09-22T19:54:40.815541201Z"}
+{"log":"\n","stream":"stdout","time":"2017-09-22T19:54:40.815546294Z"}
+{"log":"Success. You can now start the database server using:\n","stream":"stdout","time":"2017-09-22T19:54:40.815548718Z"}
+{"log":"\n","stream":"stdout","time":"2017-09-22T19:54:40.815551453Z"}
+{"log":"    pg_ctl -D /var/lib/postgresql/data -l logfile start\n","stream":"stdout","time":"2017-09-22T19:54:40.815553964Z"}
+{"log":"\n","stream":"stdout","time":"2017-09-22T19:54:40.81555678Z"}
+{"log":"****************************************************\n","stream":"stderr","time":"2017-09-22T19:54:40.825664941Z"}
+{"log":"WARNING: No password has been set for the database.\n","stream":"stderr","time":"2017-09-22T19:54:40.825679598Z"}
+{"log":"         This will allow anyone with access to the\n","stream":"stderr","time":"2017-09-22T19:54:40.82568305Z"}
+{"log":"         Postgres port to access your database. In\n","stream":"stderr","time":"2017-09-22T19:54:40.825685938Z"}
+{"log":"         Docker's default configuration, this is\n","stream":"stderr","time":"2017-09-22T19:54:40.825688491Z"}
+{"log":"         effectively any other container on the same\n","stream":"stderr","time":"2017-09-22T19:54:40.82569142Z"}
+{"log":"         system.\n","stream":"stderr","time":"2017-09-22T19:54:40.82569413Z"}
+{"log":"\n","stream":"stderr","time":"2017-09-22T19:54:40.825696791Z"}
+{"log":"         Use \"-e POSTGRES_PASSWORD=password\" to set\n","stream":"stderr","time":"2017-09-22T19:54:40.825699173Z"}
+{"log":"         it in \"docker run\".\n","stream":"stderr","time":"2017-09-22T19:54:40.825702054Z"}
+{"log":"****************************************************\n","stream":"stderr","time":"2017-09-22T19:54:40.825704685Z"}
+{"log":"waiting for server to start....LOG:  could not bind IPv6 socket: Cannot assign requested address\n","stream":"stdout","time":"2017-09-22T19:54:40.842803444Z"}
+{"log":"HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.\n","stream":"stdout","time":"2017-09-22T19:54:40.842816004Z"}
+{"log":"LOG:  database system was shut down at 2017-09-22 19:54:39 UTC\n","stream":"stdout","time":"2017-09-22T19:54:40.857097563Z"}
+{"log":"LOG:  MultiXact member wraparound protections are now enabled\n","stream":"stdout","time":"2017-09-22T19:54:40.860431124Z"}
+{"log":"LOG:  database system is ready to accept connections\n","stream":"stdout","time":"2017-09-22T19:54:40.86044397Z"}
+{"log":"LOG:  autovacuum launcher started\n","stream":"stdout","time":"2017-09-22T19:54:40.863453602Z"}
+{"log":" done\n","stream":"stdout","time":"2017-09-22T19:54:41.840802027Z"}
+{"log":"server started\n","stream":"stdout","time":"2017-09-22T19:54:41.840824089Z"}
+{"log":"ALTER ROLE\n","stream":"stdout","time":"2017-09-22T19:54:41.855283251Z"}
+{"log":"\n","stream":"stdout","time":"2017-09-22T19:54:41.855454848Z"}
+{"log":"\n","stream":"stdout","time":"2017-09-22T19:54:41.855467951Z"}
+{"log":"/usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*\n","stream":"stdout","time":"2017-09-22T19:54:41.855471018Z"}
+{"log":"\n","stream":"stdout","time":"2017-09-22T19:54:41.855474057Z"}
+{"log":"LOG:  received fast shutdown request\n","stream":"stdout","time":"2017-09-22T19:54:41.857345233Z"}
+{"log":"LOG:  aborting any active transactions\n","stream":"stdout","time":"2017-09-22T19:54:41.857356917Z"}
+{"log":"waiting for server to shut down....LOG:  autovacuum launcher shutting down\n","stream":"stdout","time":"2017-09-22T19:54:41.857359882Z"}
+{"log":"LOG:  shutting down\n","stream":"stdout","time":"2017-09-22T19:54:41.859733044Z"}
+{"log":"LOG:  database system is shut down\n","stream":"stdout","time":"2017-09-22T19:54:41.913581729Z"}
+{"log":" done\n","stream":"stdout","time":"2017-09-22T19:54:42.857760852Z"}
+{"log":"server stopped\n","stream":"stdout","time":"2017-09-22T19:54:42.857785229Z"}
+{"log":"\n","stream":"stdout","time":"2017-09-22T19:54:42.858231742Z"}
+{"log":"PostgreSQL init process complete; ready for start up.\n","stream":"stdout","time":"2017-09-22T19:54:42.858238822Z"}
+{"log":"\n","stream":"stdout","time":"2017-09-22T19:54:42.858241784Z"}
+{"log":"LOG:  database system was shut down at 2017-09-22 19:54:41 UTC\n","stream":"stderr","time":"2017-09-22T19:54:42.921284157Z"}
+{"log":"LOG:  MultiXact member wraparound protections are now enabled\n","stream":"stderr","time":"2017-09-22T19:54:42.924189016Z"}
+{"log":"LOG:  database system is ready to accept connections\n","stream":"stderr","time":"2017-09-22T19:54:42.926170195Z"}
+{"log":"LOG:  autovacuum launcher started\n","stream":"stderr","time":"2017-09-22T19:54:42.926181364Z"}
+{"log":"LOG:  received smart shutdown request\n","stream":"stderr","time":"2017-09-23T17:48:43.806002682Z"}
+{"log":"LOG:  autovacuum launcher shutting down\n","stream":"stderr","time":"2017-09-23T17:48:43.809178347Z"}
+{"log":"LOG:  shutting down\n","stream":"stderr","time":"2017-09-23T17:48:43.809184034Z"}
+{"log":"LOG:  database system is shut down\n","stream":"stderr","time":"2017-09-23T17:48:43.822624928Z"}
+{"log":"LOG:  database system was shut down at 2017-09-23 17:48:43 UTC\n","stream":"stderr","time":"2017-09-23T17:50:45.392940212Z"}
+{"log":"LOG:  MultiXact member wraparound protections are now enabled\n","stream":"stderr","time":"2017-09-23T17:50:45.395465714Z"}
+{"log":"LOG:  database system is ready to accept connections\n","stream":"stderr","time":"2017-09-23T17:50:45.39734635Z"}
+{"log":"LOG:  autovacuum launcher started\n","stream":"stderr","time":"2017-09-23T17:50:45.397694935Z"}
+{"log":"LOG:  received smart shutdown request\n","stream":"stderr","time":"2017-09-23T18:00:54.067370368Z"}
+{"log":"LOG:  autovacuum launcher shutting down\n","stream":"stderr","time":"2017-09-23T18:00:54.067390381Z"}
+{"log":"LOG:  shutting down\n","stream":"stderr","time":"2017-09-23T18:00:54.068678596Z"}
+{"log":"LOG:  database system is shut down\n","stream":"stderr","time":"2017-09-23T18:00:54.084285308Z"}
+{"log":"LOG:  database system was shut down at 2017-09-23 18:00:54 UTC\n","stream":"stderr","time":"2017-09-23T18:38:14.991878399Z"}
+{"log":"LOG:  MultiXact member wraparound protections are now enabled\n","stream":"stderr","time":"2017-09-23T18:38:14.995301988Z"}
+{"log":"LOG:  autovacuum launcher started\n","stream":"stderr","time":"2017-09-23T18:38:14.996708032Z"}
+{"log":"LOG:  database system is ready to accept connections\n","stream":"stderr","time":"2017-09-23T18:38:14.996718555Z"}
+{"log":"LOG:  received smart shutdown request\n","stream":"stderr","time":"2017-09-23T18:42:43.437624704Z"}
+{"log":"LOG:  autovacuum launcher shutting down\n","stream":"stderr","time":"2017-09-23T18:42:43.439463406Z"}
+{"log":"LOG:  shutting down\n","stream":"stderr","time":"2017-09-23T18:42:43.440476157Z"}
+{"log":"LOG:  database system is shut down\n","stream":"stderr","time":"2017-09-23T18:42:43.458718114Z"}
+{"log":"LOG:  database system was shut down at 2017-09-23 18:42:43 UTC\n","stream":"stderr","time":"2017-09-23T18:43:54.271456988Z"}
+{"log":"LOG:  MultiXact member wraparound protections are now enabled\n","stream":"stderr","time":"2017-09-23T18:43:54.273466493Z"}
+{"log":"LOG:  autovacuum launcher started\n","stream":"stderr","time":"2017-09-23T18:43:54.276469466Z"}
+{"log":"LOG:  database system is ready to accept connections\n","stream":"stderr","time":"2017-09-23T18:43:54.276483365Z"}
+{"log":"LOG:  received smart shutdown request\n","stream":"stderr","time":"2017-09-24T12:15:26.176632034Z"}
+{"log":"LOG:  autovacuum launcher shutting down\n","stream":"stderr","time":"2017-09-24T12:15:26.177616375Z"}
+{"log":"LOG:  shutting down\n","stream":"stderr","time":"2017-09-24T12:15:26.178714022Z"}
+{"log":"LOG:  database system is shut down\n","stream":"stderr","time":"2017-09-24T12:15:26.197231627Z"}
+{"log":"LOG:  database system was shut down at 2017-09-24 12:15:26 UTC\n","stream":"stderr","time":"2017-09-24T12:16:39.935865008Z"}
+{"log":"LOG:  MultiXact member wraparound protections are now enabled\n","stream":"stderr","time":"2017-09-24T12:16:39.938471175Z"}
+{"log":"LOG:  database system is ready to accept connections\n","stream":"stderr","time":"2017-09-24T12:16:39.940335891Z"}
+{"log":"LOG:  autovacuum launcher started\n","stream":"stderr","time":"2017-09-24T12:16:39.940707664Z"}
+{"log":"LOG:  received smart shutdown request\n","stream":"stderr","time":"2017-09-24T13:15:35.280981294Z"}
+{"log":"LOG:  autovacuum launcher shutting down\n","stream":"stderr","time":"2017-09-24T13:15:35.283416875Z"}
+{"log":"LOG:  shutting down\n","stream":"stderr","time":"2017-09-24T13:15:35.283732019Z"}
+{"log":"LOG:  database system is shut down\n","stream":"stderr","time":"2017-09-24T13:15:35.297916682Z"}
+{"log":"LOG:  database system was shut down at 2017-09-24 13:15:35 UTC\n","stream":"stderr","time":"2017-09-24T13:22:22.087069251Z"}
+{"log":"LOG:  MultiXact member wraparound protections are now enabled\n","stream":"stderr","time":"2017-09-24T13:22:22.090731063Z"}
+{"log":"LOG:  database system is ready to accept connections\n","stream":"stderr","time":"2017-09-24T13:22:22.094021475Z"}
+{"log":"LOG:  autovacuum launcher started\n","stream":"stderr","time":"2017-09-24T13:22:22.094034371Z"}
+{"log":"LOG:  received smart shutdown request\n","stream":"stderr","time":"2017-09-24T14:26:06.39162706Z"}
+{"log":"LOG:  autovacuum launcher shutting down\n","stream":"stderr","time":"2017-09-24T14:26:06.393580833Z"}
+{"log":"LOG:  shutting down\n","stream":"stderr","time":"2017-09-24T14:26:06.396542859Z"}
+{"log":"LOG:  database system is shut down\n","stream":"stderr","time":"2017-09-24T14:26:06.409404386Z"}
+{"log":"LOG:  database system was shut down at 2017-09-24 14:26:06 UTC\n","stream":"stderr","time":"2017-09-24T14:31:52.443317487Z"}
+{"log":"LOG:  MultiXact member wraparound protections are now enabled\n","stream":"stderr","time":"2017-09-24T14:31:52.445412361Z"}
+{"log":"LOG:  database system is ready to accept connections\n","stream":"stderr","time":"2017-09-24T14:31:52.447884621Z"}
+{"log":"LOG:  autovacuum launcher started\n","stream":"stderr","time":"2017-09-24T14:31:52.447911643Z"}
