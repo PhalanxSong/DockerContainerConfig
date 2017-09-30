@@ -2698,3 +2698,33 @@
 {"log":"[2017-09-30 04:13:50] INFO  going to shutdown ...\n","stream":"stderr","time":"2017-09-30T04:13:50.797559829Z"}
 {"log":"[2017-09-30 04:13:50] INFO  WEBrick::HTTPServer#start done.\n","stream":"stderr","time":"2017-09-30T04:13:50.797562419Z"}
 {"log":"Exiting\n","stream":"stdout","time":"2017-09-30T04:13:50.815318307Z"}
+{"log":"The Gemfile's dependencies are satisfied\n","stream":"stdout","time":"2017-09-30T07:21:34.304391Z"}
+{"log":"[2017-09-30 07:21:38] INFO  WEBrick 1.3.1\n","stream":"stderr","time":"2017-09-30T07:21:38.84357688Z"}
+{"log":"[2017-09-30 07:21:38] INFO  ruby 2.4.2 (2017-09-14) [x86_64-linux]\n","stream":"stderr","time":"2017-09-30T07:21:38.843605045Z"}
+{"log":"[2017-09-30 07:21:38] INFO  WEBrick::HTTPServer#start: pid=1 port=3000\n","stream":"stderr","time":"2017-09-30T07:21:38.843796096Z"}
+{"log":"[2017-09-30 07:22:57] FATAL SignalException: SIGTERM\n","stream":"stderr","time":"2017-09-30T07:22:57.997536566Z"}
+{"log":"\u0009/usr/local/lib/ruby/2.4.0/webrick/server.rb:171:in `select'\n","stream":"stderr","time":"2017-09-30T07:22:57.997547722Z"}
+{"log":"\u0009/usr/local/lib/ruby/2.4.0/webrick/server.rb:171:in `block in start'\n","stream":"stderr","time":"2017-09-30T07:22:57.997550953Z"}
+{"log":"\u0009/usr/local/lib/ruby/2.4.0/webrick/server.rb:33:in `start'\n","stream":"stderr","time":"2017-09-30T07:22:57.997553823Z"}
+{"log":"\u0009/usr/local/lib/ruby/2.4.0/webrick/server.rb:158:in `start'\n","stream":"stderr","time":"2017-09-30T07:22:57.997556701Z"}
+{"log":"\u0009/usr/local/bundle/gems/rack-1.6.8/lib/rack/handler/webrick.rb:34:in `run'\n","stream":"stderr","time":"2017-09-30T07:22:57.997559349Z"}
+{"log":"\u0009/usr/local/bundle/gems/rack-1.6.8/lib/rack/server.rb:287:in `start'\n","stream":"stderr","time":"2017-09-30T07:22:57.997562147Z"}
+{"log":"\u0009/usr/local/bundle/gems/railties-4.2.8/lib/rails/commands/server.rb:80:in `start'\n","stream":"stderr","time":"2017-09-30T07:22:57.997564792Z"}
+{"log":"\u0009/usr/local/bundle/gems/railties-4.2.8/lib/rails/commands/commands_tasks.rb:80:in `block in server'\n","stream":"stderr","time":"2017-09-30T07:22:57.997567562Z"}
+{"log":"\u0009/usr/local/bundle/gems/railties-4.2.8/lib/rails/commands/commands_tasks.rb:75:in `tap'\n","stream":"stderr","time":"2017-09-30T07:22:57.997570249Z"}
+{"log":"\u0009/usr/local/bundle/gems/railties-4.2.8/lib/rails/commands/commands_tasks.rb:75:in `server'\n","stream":"stderr","time":"2017-09-30T07:22:57.997578491Z"}
+{"log":"\u0009/usr/local/bundle/gems/railties-4.2.8/lib/rails/commands/commands_tasks.rb:39:in `run_command!'\n","stream":"stderr","time":"2017-09-30T07:22:57.99758139Z"}
+{"log":"\u0009/usr/local/bundle/gems/railties-4.2.8/lib/rails/commands.rb:17:in `\u003ctop (required)\u003e'\n","stream":"stderr","time":"2017-09-30T07:22:57.997584263Z"}
+{"log":"\u0009bin/rails:4:in `require'\n","stream":"stderr","time":"2017-09-30T07:22:57.997587265Z"}
+{"log":"\u0009bin/rails:4:in `\u003cmain\u003e'\n","stream":"stderr","time":"2017-09-30T07:22:57.997589924Z"}
+{"log":"[2017-09-30 07:22:57] INFO  going to shutdown ...\n","stream":"stderr","time":"2017-09-30T07:22:57.997592673Z"}
+{"log":"[2017-09-30 07:22:57] INFO  WEBrick::HTTPServer#start done.\n","stream":"stderr","time":"2017-09-30T07:22:57.997595416Z"}
+{"log":"=\u003e Booting WEBrick\n","stream":"stdout","time":"2017-09-30T07:22:58.02248288Z"}
+{"log":"=\u003e Rails 4.2.8 application starting in production on http://0.0.0.0:3000\n","stream":"stdout","time":"2017-09-30T07:22:58.022499586Z"}
+{"log":"=\u003e Run `rails server -h` for more startup options\n","stream":"stdout","time":"2017-09-30T07:22:58.022503753Z"}
+{"log":"=\u003e Ctrl-C to shutdown server\n","stream":"stdout","time":"2017-09-30T07:22:58.022506627Z"}
+{"log":"Exiting\n","stream":"stdout","time":"2017-09-30T07:22:58.022509632Z"}
+{"log":"The Gemfile's dependencies are satisfied\n","stream":"stdout","time":"2017-09-30T07:24:11.59333179Z"}
+{"log":"[2017-09-30 07:24:15] INFO  WEBrick 1.3.1\n","stream":"stderr","time":"2017-09-30T07:24:15.617144379Z"}
+{"log":"[2017-09-30 07:24:15] INFO  ruby 2.4.2 (2017-09-14) [x86_64-linux]\n","stream":"stderr","time":"2017-09-30T07:24:15.617169957Z"}
+{"log":"[2017-09-30 07:24:15] INFO  WEBrick::HTTPServer#start: pid=1 port=3000\n","stream":"stderr","time":"2017-09-30T07:24:15.617380015Z"}

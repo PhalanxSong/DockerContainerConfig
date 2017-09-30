@@ -115,3 +115,15 @@
 {"log":"LOG:  autovacuum launcher shutting down\n","stream":"stderr","time":"2017-09-30T04:13:50.788406964Z"}
 {"log":"LOG:  shutting down\n","stream":"stderr","time":"2017-09-30T04:13:50.797585816Z"}
 {"log":"LOG:  database system is shut down\n","stream":"stderr","time":"2017-09-30T04:13:50.814243177Z"}
+{"log":"LOG:  database system was shut down at 2017-09-30 07:21:06 UTC\n","stream":"stderr","time":"2017-09-30T07:21:33.665141155Z"}
+{"log":"LOG:  MultiXact member wraparound protections are now enabled\n","stream":"stderr","time":"2017-09-30T07:21:33.678763079Z"}
+{"log":"LOG:  database system is ready to accept connections\n","stream":"stderr","time":"2017-09-30T07:21:33.678780987Z"}
+{"log":"LOG:  autovacuum launcher started\n","stream":"stderr","time":"2017-09-30T07:21:33.678784283Z"}
+{"log":"LOG:  received smart shutdown request\n","stream":"stderr","time":"2017-09-30T07:22:57.997507463Z"}
+{"log":"LOG:  autovacuum launcher shutting down\n","stream":"stderr","time":"2017-09-30T07:22:57.997516326Z"}
+{"log":"LOG:  shutting down\n","stream":"stderr","time":"2017-09-30T07:22:57.998221584Z"}
+{"log":"LOG:  database system is shut down\n","stream":"stderr","time":"2017-09-30T07:22:58.011055771Z"}
+{"log":"LOG:  database system was shut down at 2017-09-30 07:22:58 UTC\n","stream":"stderr","time":"2017-09-30T07:24:10.720774962Z"}
+{"log":"LOG:  MultiXact member wraparound protections are now enabled\n","stream":"stderr","time":"2017-09-30T07:24:11.076610167Z"}
+{"log":"LOG:  database system is ready to accept connections\n","stream":"stderr","time":"2017-09-30T07:24:11.076644931Z"}
+{"log":"LOG:  autovacuum launcher started\n","stream":"stderr","time":"2017-09-30T07:24:11.076648906Z"}

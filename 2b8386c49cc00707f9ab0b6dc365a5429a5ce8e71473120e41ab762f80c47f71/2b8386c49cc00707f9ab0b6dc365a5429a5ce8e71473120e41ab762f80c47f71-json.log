@@ -161,3 +161,72 @@
 {"log":"2017-09-30T04:13:50.894+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...\r\n","stream":"stdout","time":"2017-09-30T04:13:50.896024796Z"}
 {"log":"2017-09-30T04:13:50.894+0000 I CONTROL  [signalProcessingThread] now exiting\r\n","stream":"stdout","time":"2017-09-30T04:13:50.896047067Z"}
 {"log":"2017-09-30T04:13:50.894+0000 I CONTROL  [signalProcessingThread] shutting down with code:0\r\n","stream":"stdout","time":"2017-09-30T04:13:50.896050806Z"}
+{"log":"2017-09-30T07:21:33.620+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=2b8386c49cc0\r\n","stream":"stdout","time":"2017-09-30T07:21:33.62769185Z"}
+{"log":"2017-09-30T07:21:33.621+0000 I CONTROL  [initandlisten] db version v3.4.9\r\n","stream":"stdout","time":"2017-09-30T07:21:33.630224202Z"}
+{"log":"2017-09-30T07:21:33.621+0000 I CONTROL  [initandlisten] git version: 876ebee8c7dd0e2d992f36a848ff4dc50ee6603e\r\n","stream":"stdout","time":"2017-09-30T07:21:33.63023277Z"}
+{"log":"2017-09-30T07:21:33.621+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t  3 May 2016\r\n","stream":"stdout","time":"2017-09-30T07:21:33.630236566Z"}
+{"log":"2017-09-30T07:21:33.621+0000 I CONTROL  [initandlisten] allocator: tcmalloc\r\n","stream":"stdout","time":"2017-09-30T07:21:33.630239651Z"}
+{"log":"2017-09-30T07:21:33.621+0000 I CONTROL  [initandlisten] modules: none\r\n","stream":"stdout","time":"2017-09-30T07:21:33.630242803Z"}
+{"log":"2017-09-30T07:21:33.621+0000 I CONTROL  [initandlisten] build environment:\r\n","stream":"stdout","time":"2017-09-30T07:21:33.63024587Z"}
+{"log":"2017-09-30T07:21:33.621+0000 I CONTROL  [initandlisten]     distmod: debian81\r\n","stream":"stdout","time":"2017-09-30T07:21:33.630248745Z"}
+{"log":"2017-09-30T07:21:33.621+0000 I CONTROL  [initandlisten]     distarch: x86_64\r\n","stream":"stdout","time":"2017-09-30T07:21:33.630272933Z"}
+{"log":"2017-09-30T07:21:33.621+0000 I CONTROL  [initandlisten]     target_arch: x86_64\r\n","stream":"stdout","time":"2017-09-30T07:21:33.630278605Z"}
+{"log":"2017-09-30T07:21:33.621+0000 I CONTROL  [initandlisten] options: {}\r\n","stream":"stdout","time":"2017-09-30T07:21:33.63028161Z"}
+{"log":"2017-09-30T07:21:33.649+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.\r\n","stream":"stdout","time":"2017-09-30T07:21:33.656928354Z"}
+{"log":"2017-09-30T07:21:33.649+0000 I STORAGE  [initandlisten] \r\n","stream":"stdout","time":"2017-09-30T07:21:33.656951404Z"}
+{"log":"2017-09-30T07:21:33.649+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine\r\n","stream":"stdout","time":"2017-09-30T07:21:33.656955349Z"}
+{"log":"2017-09-30T07:21:33.649+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem\r\n","stream":"stdout","time":"2017-09-30T07:21:33.656958844Z"}
+{"log":"2017-09-30T07:21:33.649+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1383M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),\r\n","stream":"stdout","time":"2017-09-30T07:21:33.656962198Z"}
+{"log":"2017-09-30T07:21:37.471+0000 I CONTROL  [initandlisten] \r\n","stream":"stdout","time":"2017-09-30T07:21:37.476616913Z"}
+{"log":"2017-09-30T07:21:37.471+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.\r\n","stream":"stdout","time":"2017-09-30T07:21:37.476641486Z"}
+{"log":"2017-09-30T07:21:37.471+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.\r\n","stream":"stdout","time":"2017-09-30T07:21:37.476645666Z"}
+{"log":"2017-09-30T07:21:37.471+0000 I CONTROL  [initandlisten] \r\n","stream":"stdout","time":"2017-09-30T07:21:37.476648636Z"}
+{"log":"2017-09-30T07:21:37.471+0000 I CONTROL  [initandlisten] \r\n","stream":"stdout","time":"2017-09-30T07:21:37.476651813Z"}
+{"log":"2017-09-30T07:21:37.471+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.\r\n","stream":"stdout","time":"2017-09-30T07:21:37.476654282Z"}
+{"log":"2017-09-30T07:21:37.471+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'\r\n","stream":"stdout","time":"2017-09-30T07:21:37.476664403Z"}
+{"log":"2017-09-30T07:21:37.471+0000 I CONTROL  [initandlisten] \r\n","stream":"stdout","time":"2017-09-30T07:21:37.476667222Z"}
+{"log":"2017-09-30T07:21:37.471+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.\r\n","stream":"stdout","time":"2017-09-30T07:21:37.476669883Z"}
+{"log":"2017-09-30T07:21:37.471+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'\r\n","stream":"stdout","time":"2017-09-30T07:21:37.476672509Z"}
+{"log":"2017-09-30T07:21:37.471+0000 I CONTROL  [initandlisten] \r\n","stream":"stdout","time":"2017-09-30T07:21:37.47667523Z"}
+{"log":"2017-09-30T07:21:37.473+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'\r\n","stream":"stdout","time":"2017-09-30T07:21:37.476677798Z"}
+{"log":"2017-09-30T07:21:37.476+0000 I NETWORK  [thread1] waiting for connections on port 27017\r\n","stream":"stdout","time":"2017-09-30T07:21:37.479472779Z"}
+{"log":"2017-09-30T07:22:57.996+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends\r\n","stream":"stdout","time":"2017-09-30T07:22:57.997443626Z"}
+{"log":"2017-09-30T07:22:57.996+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...\r\n","stream":"stdout","time":"2017-09-30T07:22:57.99748214Z"}
+{"log":"2017-09-30T07:22:57.996+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6\r\n","stream":"stdout","time":"2017-09-30T07:22:57.997486559Z"}
+{"log":"2017-09-30T07:22:57.996+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7\r\n","stream":"stdout","time":"2017-09-30T07:22:57.997489781Z"}
+{"log":"2017-09-30T07:22:57.996+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock\r\n","stream":"stdout","time":"2017-09-30T07:22:57.997492682Z"}
+{"log":"2017-09-30T07:22:57.996+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...\r\n","stream":"stdout","time":"2017-09-30T07:22:57.997495563Z"}
+{"log":"2017-09-30T07:22:57.996+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture\r\n","stream":"stdout","time":"2017-09-30T07:22:57.997498447Z"}
+{"log":"2017-09-30T07:22:57.997+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down\r\n","stream":"stdout","time":"2017-09-30T07:22:57.999582154Z"}
+{"log":"2017-09-30T07:22:58.065+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...\r\n","stream":"stdout","time":"2017-09-30T07:22:58.068393125Z"}
+{"log":"2017-09-30T07:22:58.065+0000 I CONTROL  [signalProcessingThread] now exiting\r\n","stream":"stdout","time":"2017-09-30T07:22:58.068410259Z"}
+{"log":"2017-09-30T07:22:58.065+0000 I CONTROL  [signalProcessingThread] shutting down with code:0\r\n","stream":"stdout","time":"2017-09-30T07:22:58.068413861Z"}
+{"log":"2017-09-30T07:24:10.589+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=2b8386c49cc0\r\n","stream":"stdout","time":"2017-09-30T07:24:10.596489202Z"}
+{"log":"2017-09-30T07:24:10.589+0000 I CONTROL  [initandlisten] db version v3.4.9\r\n","stream":"stdout","time":"2017-09-30T07:24:10.596516901Z"}
+{"log":"2017-09-30T07:24:10.589+0000 I CONTROL  [initandlisten] git version: 876ebee8c7dd0e2d992f36a848ff4dc50ee6603e\r\n","stream":"stdout","time":"2017-09-30T07:24:10.596520475Z"}
+{"log":"2017-09-30T07:24:10.589+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1t  3 May 2016\r\n","stream":"stdout","time":"2017-09-30T07:24:10.596523661Z"}
+{"log":"2017-09-30T07:24:10.589+0000 I CONTROL  [initandlisten] allocator: tcmalloc\r\n","stream":"stdout","time":"2017-09-30T07:24:10.596526521Z"}
+{"log":"2017-09-30T07:24:10.589+0000 I CONTROL  [initandlisten] modules: none\r\n","stream":"stdout","time":"2017-09-30T07:24:10.596529397Z"}
+{"log":"2017-09-30T07:24:10.589+0000 I CONTROL  [initandlisten] build environment:\r\n","stream":"stdout","time":"2017-09-30T07:24:10.59653207Z"}
+{"log":"2017-09-30T07:24:10.589+0000 I CONTROL  [initandlisten]     distmod: debian81\r\n","stream":"stdout","time":"2017-09-30T07:24:10.5965541Z"}
+{"log":"2017-09-30T07:24:10.589+0000 I CONTROL  [initandlisten]     distarch: x86_64\r\n","stream":"stdout","time":"2017-09-30T07:24:10.596577919Z"}
+{"log":"2017-09-30T07:24:10.589+0000 I CONTROL  [initandlisten]     target_arch: x86_64\r\n","stream":"stdout","time":"2017-09-30T07:24:10.596581632Z"}
+{"log":"2017-09-30T07:24:10.589+0000 I CONTROL  [initandlisten] options: {}\r\n","stream":"stdout","time":"2017-09-30T07:24:10.596584267Z"}
+{"log":"2017-09-30T07:24:10.610+0000 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.\r\n","stream":"stdout","time":"2017-09-30T07:24:10.619329554Z"}
+{"log":"2017-09-30T07:24:10.610+0000 I STORAGE  [initandlisten] \r\n","stream":"stdout","time":"2017-09-30T07:24:10.619350075Z"}
+{"log":"2017-09-30T07:24:10.610+0000 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine\r\n","stream":"stdout","time":"2017-09-30T07:24:10.619353894Z"}
+{"log":"2017-09-30T07:24:10.610+0000 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem\r\n","stream":"stdout","time":"2017-09-30T07:24:10.619357229Z"}
+{"log":"2017-09-30T07:24:10.610+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1383M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),\r\n","stream":"stdout","time":"2017-09-30T07:24:10.619360563Z"}
+{"log":"2017-09-30T07:24:14.631+0000 I CONTROL  [initandlisten] \r\n","stream":"stdout","time":"2017-09-30T07:24:14.633767562Z"}
+{"log":"2017-09-30T07:24:14.631+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.\r\n","stream":"stdout","time":"2017-09-30T07:24:14.633796283Z"}
+{"log":"2017-09-30T07:24:14.631+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.\r\n","stream":"stdout","time":"2017-09-30T07:24:14.633800165Z"}
+{"log":"2017-09-30T07:24:14.631+0000 I CONTROL  [initandlisten] \r\n","stream":"stdout","time":"2017-09-30T07:24:14.633803646Z"}
+{"log":"2017-09-30T07:24:14.631+0000 I CONTROL  [initandlisten] \r\n","stream":"stdout","time":"2017-09-30T07:24:14.633806725Z"}
+{"log":"2017-09-30T07:24:14.631+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.\r\n","stream":"stdout","time":"2017-09-30T07:24:14.633809839Z"}
+{"log":"2017-09-30T07:24:14.631+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'\r\n","stream":"stdout","time":"2017-09-30T07:24:14.633812552Z"}
+{"log":"2017-09-30T07:24:14.631+0000 I CONTROL  [initandlisten] \r\n","stream":"stdout","time":"2017-09-30T07:24:14.633815395Z"}
+{"log":"2017-09-30T07:24:14.631+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.\r\n","stream":"stdout","time":"2017-09-30T07:24:14.633817912Z"}
+{"log":"2017-09-30T07:24:14.631+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'\r\n","stream":"stdout","time":"2017-09-30T07:24:14.633820705Z"}
+{"log":"2017-09-30T07:24:14.631+0000 I CONTROL  [initandlisten] \r\n","stream":"stdout","time":"2017-09-30T07:24:14.633823352Z"}
+{"log":"2017-09-30T07:24:14.634+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'\r\n","stream":"stdout","time":"2017-09-30T07:24:14.634973242Z"}
+{"log":"2017-09-30T07:24:14.635+0000 I NETWORK  [thread1] waiting for connections on port 27017\r\n","stream":"stdout","time":"2017-09-30T07:24:14.63599749Z"}
