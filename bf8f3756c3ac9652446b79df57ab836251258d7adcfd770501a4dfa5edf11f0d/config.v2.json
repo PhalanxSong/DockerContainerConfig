@@ -19,7 +19,7 @@
     "Managed": false,
     "Path": "bash",
     "Args": [
-        "/blog/start_blog.sh"
+        "/blog/start_server.sh"
     ],
     "Config": {
         "Hostname": "bf8f3756c3ac",
