@@ -2680,3 +2680,21 @@
 {"log":"\u0009/usr/local/lib/ruby/2.4.0/webrick/httpserver.rb:82:in `eof?'\n","stream":"stderr","time":"2017-09-29T16:18:50.169805773Z"}
 {"log":"\u0009/usr/local/lib/ruby/2.4.0/webrick/httpserver.rb:82:in `run'\n","stream":"stderr","time":"2017-09-29T16:18:50.16981048Z"}
 {"log":"\u0009/usr/local/lib/ruby/2.4.0/webrick/server.rb:290:in `block in start_thread'\n","stream":"stderr","time":"2017-09-29T16:18:50.169813862Z"}
+{"log":"[2017-09-30 04:13:50] FATAL SignalException: SIGTERM\n","stream":"stderr","time":"2017-09-30T04:13:50.797478575Z"}
+{"log":"\u0009/usr/local/lib/ruby/2.4.0/webrick/server.rb:171:in `select'\n","stream":"stderr","time":"2017-09-30T04:13:50.797495746Z"}
+{"log":"\u0009/usr/local/lib/ruby/2.4.0/webrick/server.rb:171:in `block in start'\n","stream":"stderr","time":"2017-09-30T04:13:50.797499971Z"}
+{"log":"\u0009/usr/local/lib/ruby/2.4.0/webrick/server.rb:33:in `start'\n","stream":"stderr","time":"2017-09-30T04:13:50.797503244Z"}
+{"log":"\u0009/usr/local/lib/ruby/2.4.0/webrick/server.rb:158:in `start'\n","stream":"stderr","time":"2017-09-30T04:13:50.797505938Z"}
+{"log":"\u0009/usr/local/bundle/gems/rack-1.6.8/lib/rack/handler/webrick.rb:34:in `run'\n","stream":"stderr","time":"2017-09-30T04:13:50.797508821Z"}
+{"log":"\u0009/usr/local/bundle/gems/rack-1.6.8/lib/rack/server.rb:287:in `start'\n","stream":"stderr","time":"2017-09-30T04:13:50.797511697Z"}
+{"log":"\u0009/usr/local/bundle/gems/railties-4.2.8/lib/rails/commands/server.rb:80:in `start'\n","stream":"stderr","time":"2017-09-30T04:13:50.797514408Z"}
+{"log":"\u0009/usr/local/bundle/gems/railties-4.2.8/lib/rails/commands/commands_tasks.rb:80:in `block in server'\n","stream":"stderr","time":"2017-09-30T04:13:50.797516977Z"}
+{"log":"\u0009/usr/local/bundle/gems/railties-4.2.8/lib/rails/commands/commands_tasks.rb:75:in `tap'\n","stream":"stderr","time":"2017-09-30T04:13:50.797542841Z"}
+{"log":"\u0009/usr/local/bundle/gems/railties-4.2.8/lib/rails/commands/commands_tasks.rb:75:in `server'\n","stream":"stderr","time":"2017-09-30T04:13:50.797546027Z"}
+{"log":"\u0009/usr/local/bundle/gems/railties-4.2.8/lib/rails/commands/commands_tasks.rb:39:in `run_command!'\n","stream":"stderr","time":"2017-09-30T04:13:50.797549052Z"}
+{"log":"\u0009/usr/local/bundle/gems/railties-4.2.8/lib/rails/commands.rb:17:in `\u003ctop (required)\u003e'\n","stream":"stderr","time":"2017-09-30T04:13:50.797551787Z"}
+{"log":"\u0009bin/rails:4:in `require'\n","stream":"stderr","time":"2017-09-30T04:13:50.797554667Z"}
+{"log":"\u0009bin/rails:4:in `\u003cmain\u003e'\n","stream":"stderr","time":"2017-09-30T04:13:50.797557203Z"}
+{"log":"[2017-09-30 04:13:50] INFO  going to shutdown ...\n","stream":"stderr","time":"2017-09-30T04:13:50.797559829Z"}
+{"log":"[2017-09-30 04:13:50] INFO  WEBrick::HTTPServer#start done.\n","stream":"stderr","time":"2017-09-30T04:13:50.797562419Z"}
+{"log":"Exiting\n","stream":"stdout","time":"2017-09-30T04:13:50.815318307Z"}

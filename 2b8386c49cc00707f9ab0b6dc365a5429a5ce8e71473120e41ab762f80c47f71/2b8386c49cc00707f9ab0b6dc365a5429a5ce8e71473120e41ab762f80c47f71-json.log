@@ -150,3 +150,14 @@
 {"log":"2017-09-24T17:07:20.942+0000 I CONTROL  [initandlisten] \r\n","stream":"stdout","time":"2017-09-24T17:07:20.945430139Z"}
 {"log":"2017-09-24T17:07:20.944+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'\r\n","stream":"stdout","time":"2017-09-24T17:07:20.945433019Z"}
 {"log":"2017-09-24T17:07:20.945+0000 I NETWORK  [thread1] waiting for connections on port 27017\r\n","stream":"stdout","time":"2017-09-24T17:07:20.945436199Z"}
+{"log":"2017-09-30T04:13:50.790+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends\r\n","stream":"stdout","time":"2017-09-30T04:13:50.797670131Z"}
+{"log":"2017-09-30T04:13:50.790+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...\r\n","stream":"stdout","time":"2017-09-30T04:13:50.797686462Z"}
+{"log":"2017-09-30T04:13:50.790+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6\r\n","stream":"stdout","time":"2017-09-30T04:13:50.797690137Z"}
+{"log":"2017-09-30T04:13:50.790+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7\r\n","stream":"stdout","time":"2017-09-30T04:13:50.797692977Z"}
+{"log":"2017-09-30T04:13:50.790+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock\r\n","stream":"stdout","time":"2017-09-30T04:13:50.797695707Z"}
+{"log":"2017-09-30T04:13:50.790+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...\r\n","stream":"stdout","time":"2017-09-30T04:13:50.79769856Z"}
+{"log":"2017-09-30T04:13:50.790+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture\r\n","stream":"stdout","time":"2017-09-30T04:13:50.797701505Z"}
+{"log":"2017-09-30T04:13:50.792+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down\r\n","stream":"stdout","time":"2017-09-30T04:13:50.797710802Z"}
+{"log":"2017-09-30T04:13:50.894+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...\r\n","stream":"stdout","time":"2017-09-30T04:13:50.896024796Z"}
+{"log":"2017-09-30T04:13:50.894+0000 I CONTROL  [signalProcessingThread] now exiting\r\n","stream":"stdout","time":"2017-09-30T04:13:50.896047067Z"}
+{"log":"2017-09-30T04:13:50.894+0000 I CONTROL  [signalProcessingThread] shutting down with code:0\r\n","stream":"stdout","time":"2017-09-30T04:13:50.896050806Z"}

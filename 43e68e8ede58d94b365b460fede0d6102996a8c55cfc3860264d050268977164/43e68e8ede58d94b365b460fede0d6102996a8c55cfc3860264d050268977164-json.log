@@ -111,3 +111,7 @@
 {"log":"LOG:  MultiXact member wraparound protections are now enabled\n","stream":"stderr","time":"2017-09-24T14:31:52.445412361Z"}
 {"log":"LOG:  database system is ready to accept connections\n","stream":"stderr","time":"2017-09-24T14:31:52.447884621Z"}
 {"log":"LOG:  autovacuum launcher started\n","stream":"stderr","time":"2017-09-24T14:31:52.447911643Z"}
+{"log":"LOG:  received smart shutdown request\n","stream":"stderr","time":"2017-09-30T04:13:50.788396696Z"}
+{"log":"LOG:  autovacuum launcher shutting down\n","stream":"stderr","time":"2017-09-30T04:13:50.788406964Z"}
+{"log":"LOG:  shutting down\n","stream":"stderr","time":"2017-09-30T04:13:50.797585816Z"}
+{"log":"LOG:  database system is shut down\n","stream":"stderr","time":"2017-09-30T04:13:50.814243177Z"}

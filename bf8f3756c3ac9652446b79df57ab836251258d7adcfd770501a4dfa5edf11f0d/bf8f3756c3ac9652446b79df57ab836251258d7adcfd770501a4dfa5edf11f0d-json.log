@@ -3160,3 +3160,5 @@
 {"log":"^C\u001b[32mINFO \u001b[39m Farewell\r\n","stream":"stdout","time":"2017-09-29T06:01:34.374530253Z"}
 {"log":"root@bf8f3756c3ac:/blog# exit\r\n","stream":"stdout","time":"2017-09-29T06:01:36.462839393Z"}
 {"log":"exit\r\n","stream":"stdout","time":"2017-09-29T06:01:36.462860506Z"}
+{"log":"root@bf8f3756c3ac:/# exit\r\n","stream":"stdout","time":"2017-09-30T04:13:50.788335999Z"}
+{"log":"root@bf8f3756c3ac:/# exit\r\n","stream":"stdout","time":"2017-09-30T04:16:08.894524778Z"}
