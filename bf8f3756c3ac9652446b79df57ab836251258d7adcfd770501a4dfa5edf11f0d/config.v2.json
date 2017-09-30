@@ -17,8 +17,10 @@
     "ID": "bf8f3756c3ac9652446b79df57ab836251258d7adcfd770501a4dfa5edf11f0d",
     "Created": "2017-09-29T05:59:26.11182738Z",
     "Managed": false,
-    "Path": "npm -v",
-    "Args": [],
+    "Path": "bash",
+    "Args": [
+        "/blog/start_blog.sh"
+    ],
     "Config": {
         "Hostname": "bf8f3756c3ac",
         "Domainname": "",
