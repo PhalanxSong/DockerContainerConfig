@@ -17,7 +17,7 @@
     "ID": "bf8f3756c3ac9652446b79df57ab836251258d7adcfd770501a4dfa5edf11f0d",
     "Created": "2017-09-29T05:59:26.11182738Z",
     "Managed": false,
-    "Path": "sh start_blog.sh",
+    "Path": "start_blog.sh",
     "Args": [],
     "Config": {
         "Hostname": "bf8f3756c3ac",
@@ -38,12 +38,14 @@
             "NODE_VERSION=8.5.0",
             "YARN_VERSION=1.0.2"
         ],
-        "Cmd": [],
+        "Cmd": [
+            "/bin/bash"
+        ],
         "Image": "node",
         "Volumes": null,
         "WorkingDir": "/blog",
         "Entrypoint": [
-            "sh start_blog.sh"
+            "start_blog.sh"
         ],
         "OnBuild": null,
         "Labels": {}
