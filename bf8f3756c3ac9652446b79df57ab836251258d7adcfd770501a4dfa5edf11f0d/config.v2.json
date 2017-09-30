@@ -17,7 +17,7 @@
     "ID": "bf8f3756c3ac9652446b79df57ab836251258d7adcfd770501a4dfa5edf11f0d",
     "Created": "2017-09-29T05:59:26.11182738Z",
     "Managed": false,
-    "Path": "docker-entrypoint.sh",
+    "Path": "bash",
     "Args": [],
     "Config": {
         "Hostname": "bf8f3756c3ac",
@@ -38,15 +38,10 @@
             "NODE_VERSION=8.5.0",
             "YARN_VERSION=1.0.2"
         ],
-        "Cmd": [
-            "hexo",
-            "sh",
-            "npm",
-            "bash"
-        ],
+        "Cmd": [],
         "Image": "node",
         "Volumes": null,
-        "WorkingDir": "",
+        "WorkingDir": "/blog",
         "Entrypoint": [
             "docker-entrypoint.sh"
         ],
